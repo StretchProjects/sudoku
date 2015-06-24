@@ -1,0 +1,39 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+input.cell {
+    border: 0px;
+    width: 26px; /* Changed this to 26px from 20px to make the grid square */
+    height: 20px;
+}
+
+td.cell {
+    border: 1px solid black;
+}
+
+table.grid {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+
+td.border-top {
+    border-top: 3px solid black;
+}
+
+td.border-left {
+    border-left: 3px solid black;
+}
+
+td.border-right {
+    border-right: 3px solid black;
+}
+
+td.border-bottom {
+    border-bottom: 3px solid black;
+}
