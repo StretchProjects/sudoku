@@ -5,7 +5,7 @@ html {
 
 input.cell {
     border: 0px;
-    width: 26px; /* Changed this to 26px from 20px to make the grid square */
+    width: 26px;
     height: 20px;
 }
 
